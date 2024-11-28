@@ -1,0 +1,858 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---=====================================================
+   <!--Toptech Header Area Css Style One-->
+=========================================================---*/
+
+
+.top-header-area{
+    display: flex;
+    background: #00194c;
+    position: relative;
+    z-index: 1;
+}
+.top-header-area:before {
+    position: absolute;
+    content: "";
+    width: 53%;
+    height: 100%;
+    left: -13px;
+    top: 0;
+    background: #0C59DB;
+    z-index: -1;
+    transform: skew(23deg);
+}
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+    margin-right: 70px;
+}
+.header-info ul {
+    display: flex;
+}
+.header-info ul li {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    list-style: none;
+    margin-left: 15px;
+
+}
+.header-info ul li i {
+    color: #fff;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+.top-header-social-icon {
+    margin-left: 365px;
+}
+.top-header-social-icon ul {
+    display: flex;
+}
+.top-header-social-icon ul li {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    margin-right: 5px;
+}
+.top-header-social-icon ul li p {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.top-header-social-icon ul li.time-line {
+    margin-right: 32px;
+}
+.top-header-social-icon ul li.time-line i {
+    margin-right: 10px;
+}
+.top-header-social-icon ul li i {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 16px;
+    transition: 0.5s;
+}
+.top-header-social-icon ul li i:hover {
+    color: #0c5adb;
+}
+
+
+/*---=====================================================
+   <!--Toptech Header Area Css Style Two-->
+=========================================================---*/
+
+.header-area {
+    margin: 30px 70px;
+    padding: 0px;
+}
+.container-two {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo img {
+    width: 200px;
+}
+.header-menu {
+    display: flex;
+}
+.header-menubar {
+    display: flex;
+}
+.header-menubar ul {
+    display: flex;
+}
+.header-menubar ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-menubar ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000048;
+    transition: 0.5s;
+}
+.header-menubar ul li a:hover {
+    color: #0c5adb;
+}
+.header-menu-search-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-menu-search-icon a {
+    color: #686868;
+    transition: 0.5s;
+}
+.header-menu-button {
+    display: flex;
+    margin-left: 20px;
+}
+.header-menu-button a {
+    padding: 11px 28px;
+    color: #fff;
+    background: #0c5adb;
+    border: 1px solid #0c5adb;
+    border-radius: 4px;
+    z-index: 1;
+    transition: .5s;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.header-menu-button a:hover {
+    background-color: #fff;
+}
+
+/*---=====================================================
+   <!--Toptech Hero Area Css Style Two-->
+=========================================================---*/
+
+.hero-area {
+    background: url(../images/home-2/3430318.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.container-thirteen {
+    display: flex;
+}
+.hero-content-area {
+    margin-top: 15%;
+    margin-left: 80px;
+}
+.hero-content h4 {
+    margin: 0 0 3px;
+    font-size: 19px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rajdhani";
+}
+.hero-content h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 74px;
+    font-weight: 700;
+}
+.hero-content p {
+    color: #B6B9C0;
+    width: 72%;
+    font-size: 18px;
+    margin: 11px 0 0;
+}
+.hero-button {
+    margin-top: 49px;
+}
+.hero-button a {
+    padding: 15px 37px 15px 42px;
+    font-weight: 500;
+    color: #fff;
+    background: #0c5adb;
+    border: 1px solid #0c5adb;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #0c5adb;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 17px;
+    transition: 0.5s;
+}
+.hero-button a:hover {
+    color: #0c5adb;
+}
+.hero-button a:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: -1;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.hero-button a:hover:before {
+    width: 100%;
+    left: 0;
+}
+.hero-button i {
+    color: #fff;
+    display: inline-block;
+    padding-left: 11px;
+    position: relative;
+    top: 1px;
+    transition: 0.5s;
+}
+.hero-button a:hover i {
+    color: #0c5adb;
+}
+.hero-right {
+    position: relative;
+}
+.hero-thumb {
+    position: relative;
+    left: 10px;
+    top: 70px;
+}
+.hero-shape {
+    position: absolute;
+    top: 28%;
+    animation: rotateme 20s linear infinite;
+}
+
+
+/*---=====================================================
+   <!--Toptech Team Area Css Style Two-->
+=========================================================---*/
+
+.team-area {
+    background: url(../images/team/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 119px 0 91px;
+}
+.container-eleven {
+    display: flex;
+    justify-content: space-between;
+}
+.team-title {
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.team-title h4 {
+    color: #0c5adb;
+}
+.toptech-button {
+    margin-right: 70px;
+}
+.toptech-button a {
+    display: inline-block;
+    background: #0c5adb;
+    border: 1px solid #0c5adb;
+    color: #fff;
+    padding: 14px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 38px;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+}
+.toptech-button a:hover {
+    color: #0c5adb;
+}
+.toptech-button a:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.toptech-button a:hover:before {
+    width: 100%;
+    left: 0;
+}
+.toptech-button i {
+    margin-left: 10px;
+}
+.container-twelve {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.single-team-box {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.team-thumb img {
+    width: 100%;
+}
+.team-content {
+    position: relative;
+    filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+    background-color: #ffffff;
+    text-align: center;
+    padding: 24px 0 75px;
+    border-radius: 4px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 78%, 0 100%);
+    transition: 0.5s;
+    height: 159px;
+}
+.single-team-box:hover .team-content {
+    background-color: #0c5adb;
+    margin-top: -55px;
+    height: 193px;
+}
+.team-content h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    transition: 0.5s;
+}
+.single-team-box:hover .team-content p,
+.single-team-box:hover .team-content h4 {
+    color: #fff;
+}
+.team-content p {
+    margin: 2px 0 0;
+}
+.team-shape {
+    position: absolute;
+    bottom: -54px;
+    left: -10px;
+}
+.team-socila-icon-box {
+    position: absolute;
+    left: 105px;
+    bottom: -21px;
+}
+.team-share {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 999;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+}
+.single-team-box.active .team-share {
+    background: #fff;
+    color: #0c5adb;
+}
+.team-social-icon {
+    position: relative;
+    top: -81px;
+    left: -27px;
+}
+.team-social-icon ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.team-social-icon ul li a {
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.team-social-icon.active ul li a {
+    transform: translateY(0px);
+    opacity: 1;
+    overflow: hidden;
+    visibility: visible;
+}
+.team-social-icon ul li:nth-child(1) a {
+    transition-delay: 0.5s;
+}
+.team-social-icon ul li:nth-child(2) a {
+    transition-delay: 0.4s;
+}
+.team-social-icon ul li:nth-child(3) a {
+    transition-delay: 0.2s;
+}
+.team-social-icon ul li:nth-child(4) a {
+    transition-delay: 0s;
+}
+
+
+/*---=====================================================
+   <!--Toptech Counter Area Css Style Two-->
+=========================================================---*/
+.counter-area {
+    background: url(../images/home-2/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 75px 0 63px;
+}
+.container-seven {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.counter-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.counter-content span,
+.counter-content h4 {
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    font-family: "Rajdhani";
+}
+.counter-content p {
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.6;
+    text-transform: uppercase;
+    margin: 4px 0 0;
+}
+
+/*---=====================================================
+   <!--Toptech Working Proces Area Css Style Two-->
+=========================================================---*/
+
+.working-proces-area {
+    background: #021533;
+    padding: 247px 0 90px;
+    margin-top: -163px;
+}
+.container-nine {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.working-proces-area .section-title.center {
+    margin-bottom: 72px;
+}
+.working-proces-area .section-title h1 {
+    font-size: 42px;
+    color: #ffff;
+    font-weight: 700;
+    line-height: 40px;
+}
+.working-process-box {
+    text-align: center;
+    padding: 0 50px 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.working-process-box:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: -70px;
+    top: 73px;
+    background: url(/images/home-2/porcess-shape1.png);
+    background-repeat: no-repeat;
+}
+.working-process-box.before-transprent:before {
+    background: transparent;
+}
+.working-process-box:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: -81px;
+    top: 73px;
+    background: url(/images/home-2/porcess-shape2.png);
+    background-repeat: no-repeat;
+}
+.working-process-box.after-transprent:after {
+    background: transparent;
+}
+.process-thumb {
+    position: relative;
+    margin-bottom: 44px;
+}
+.process-number span {
+    position: absolute;
+    left: 12%;
+    top: 13%;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0c5adb;
+    transition: .5s;
+}
+.process-number.two span {
+    left: 11%;
+    top: 69%;
+}
+.process-content h4 {
+    font-size: 23px;
+    color: #fff;
+    margin: 20px 0 10px;
+    transition: .5s;
+}
+.process-content p {
+    opacity: 0.502;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    transition: .5s;
+}
+
+/*---=====================================================
+   <!--Toptech Video Area Css Style Two-->
+=========================================================---*/
+
+.video-area {
+    padding: 141px 0 159px;
+    background: url(../images/home-2/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-title {
+    text-align: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+.section-title h4 {
+    color: #0C59DB;
+}
+.section-title h1 {
+    color: #fff;
+}
+.video-button {
+    text-align: center;
+    margin-top: 50px;
+}
+.video-button i {
+    display: inline-block;
+    background: #0B59D7;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 72px;
+    font-size: 35px;
+    border-radius: 50%;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+    -webkit-transition: 0.5s;
+}
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+}
+
+
+/*---=====================================================
+   <!--Toptech Contact Area Css Style One-->
+=========================================================---*/
+
+.contact-info-area {
+    background: url(../images/home-2/contact-info-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 123px 0 125px;
+}
+.container-six {
+    display: flex;
+    margin-left: 70px;
+}
+.contact-info-box {
+    background: #fff;
+    margin-right: 25px;
+    padding: 29px 28px 27px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0B59D7;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    gap: 29px;
+}
+.contact-info-box:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #0B59D7;
+    border-radius: 5px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.contact-info-box:hover:before {
+    width: 100%;
+}
+.contact-info-icon i {
+    display: inline-block;
+    color: #0c5adb;
+    border: 2px solid #0c5adb;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.contact-info-box:hover .contact-info-icon i {
+    color: #fff;
+    border: 2px solid #fff;
+}
+.contact-info-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 11px 0;
+    transition: 0.5s;
+}
+.contact-info-box:hover .contact-info-content h4 {
+    color: #fff;
+}
+.contact-info-content p {
+    font-size: 26px;
+    color: #0c59d7;
+    font-weight: 600;
+    font-family: "Rajdhani";
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+.contact-info-box:hover .contact-info-content p {
+    color: #fff;
+}
+
+
+/*---=====================================================
+   <!--Toptech Footer Area Css Style One-->
+=========================================================---*/
+
+.footer-area {
+    /* display: inline-block; */
+    background-color: #02102d;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.container-three {
+    display: flex;
+    color: #fff;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+.footer-logo {
+    max-width: 300px;
+}
+.footer-logo img {
+    color: #fff;
+}
+.footer-logo p {
+    margin-top: 30px;
+}
+.discover-button a {
+    display: inline-block;
+    background: #0c5adb;
+    border: 1px solid #0c5adb;
+    color: #fff;
+    padding: 14px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 38px;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+}
+.discover-button a:hover {
+    color: #0c5adb;
+}
+.discover-button a:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.discover-button a:hover:before {
+    width: 100%;
+    left: 0;
+}
+.footer-company {
+    margin-left: 90px;
+}
+.footer-company i {
+    color: #0c5adb;
+}
+.footer-company a {
+    margin-left: 10px;
+    color: #fff;
+}
+.footer-company ul {
+    margin-top: 30px;
+    margin-left: -30px;
+    list-style: none;
+}
+.footer-company ul li {
+    margin-top: 20px;
+}
+.footer-company ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer-service {
+    margin-left: 80px;
+}
+.footer-service i {
+    color: #0c5adb;
+}
+.footer-service a {
+    margin-left: 10px;
+    color: #fff;
+}
+.footer-service ul {
+    margin-top: 30px;
+    margin-left: -30px;
+    list-style: none;
+}
+.footer-service ul li {
+    margin-top: 20px;
+}
+.footer-service ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer-newsletter{
+    margin-left: 90px;
+}
+.footer-newsletter p {
+    margin-top: 30px;
+}
+.footer-newsletter input {
+    background: transparent;
+    border: 1px solid #ffffff52;
+    padding: 0 15px;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+    outline: 0;
+}
+.footer-newsletter button {
+    background: #0C59DB;
+    color: #fff;
+    border: transparent;
+    outline: 0;
+    padding: 12px 33px;
+    border-radius: 3px;
+    margin-top: 21px;
+}
+hr {
+    border-radius: 2px solid #fff;
+    height: 2px;
+    background-color: #fff;
+}
+.container-four {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #fff;
+}
+.container-four ul {
+    display: flex;
+    margin-right: 20px;
+}
+.container-four ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footer-icon ul li {
+    list-style: none;
+}
